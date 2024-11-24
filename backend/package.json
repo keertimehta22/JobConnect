@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+  
     "start": "npx nodemon server.js",
-    "build": "react-scripts build"
+    "build": "vite build",
+    "test": "vitest run",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx" 
+    
   },
   "author": "",
   "license": "ISC",
